@@ -1,0 +1,68 @@
+#Body {
+background:#000;
+clear: left;
+margin: 0;
+position: relative;
+width: auto;
+}
+#Panel {
+	display:none;
+}
+body.Profile #Panel {
+display: inline-block;
+width: 100%;
+}
+#Content {
+width: 100%!important;
+}
+.Banner{
+width:100%
+}
+
+body.Profile #Content {
+margin:0 auto!important;
+}
+div.Box.About {
+width: 100%;
+}
+div.Profile {
+float: left!important;
+width:100%;
+}
+body.Profile #Form_Invitation ul li label, body.Profile #Form_User ul li label, div.Popup form ul li label {
+color:#ccc;
+display: block;
+font-size: 14px;
+font-weight: bold;
+margin: 10px 0 0;
+}
+a.BigButton.NewDiscussion, a.BigButton.NewDiscussion:hover, a.BigButton.NewDiscussion:focus {
+visibility: visible!important;
+display: inline-block;
+font-size: 10pt;
+padding: 2px 4px;
+}
+a.BigButton.NewDiscussion, a.BigButton.NewConversation.Popup {
+background: url(images/metalnav4.png);
+color:#000;
+font-size: 10pt;
+margin: 0 -12px auto;
+width: 110%;
+}
+a.BigButton:hover{
+color:red!important;
+}
+#Panel div.Box {
+-moz-border-radius: 0;
+-moz-box-shadow: none;
+-webkit-border-radius: 0;
+-webkit-box-shadow: none;
+background: none;
+border-radius: 0;
+box-shadow: none;
+width: 100%;
+}
+body.Profile #Panel div.SearchBox input.InputBox {
+margin-right: 4px;
+width: 90%!important;
+}
